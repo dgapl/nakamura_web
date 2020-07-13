@@ -1,0 +1,50 @@
+label.label-size {
+    display: block;
+    float: left;
+    width: 5em;
+}
+
+.row {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.btn-area {
+    display: flex;
+}
+
+.form-size {
+    width: 160px;
+    height: 20px;
+}
+
+.btn-layout {
+    margin-right: 10px;
+}
+
+.btn {
+    font-size: 1em;
+    display: block;
+    width: 80px;
+    height: 30px;
+    padding-top: 5px;
+    text-align: center;
+    text-decoration: none;
+    color: #00BCD4;
+    background: #e1ecf7;
+    transition: .4s;
+}
+
+.btn:hover {
+    background: #00BCD4;
+    color: white;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table td {
+    width: 100px;
+    border: solid 1px;
+}

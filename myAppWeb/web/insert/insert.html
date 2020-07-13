@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="../common.css">
+<script type="text/javascript" src="insert.js"></script>
+<title>登録</title>
+</head>
+<body>
+    <h1>登録</h1>
+    <form name="fm">
+        <div class="row">
+            <label class="label-size">名前</label>
+            <span>：</span>
+            <input type="text" name="userNm" class="form-size" maxlength="10">
+        </div>
+        <div class="row">
+            <label class="label-size">ユーザID</label>
+            <span>：</span>
+            <input type="text" name="userId" class="form-size" maxlength="10">
+        </div>
+        <div class="row">
+            <label class="label-size">パスワード</label>
+            <span>：</span>
+            <input type="password" name="password" class="form-size" maxlength="10">
+        </div>
+    </form>
+    <div id="msg"></div>
+    <div class="row btn-area">
+        <a href="../login.html" class="btn btn-layout">もどる</a>
+        <a href="#" id="insertBtn" class="btn btn-layout">登録</a>
+    </div>
+</body>
+</html>

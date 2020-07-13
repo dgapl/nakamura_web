@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="common.css">
+<script type="text/javascript" src="login.js"></script>
+<title>ログイン</title>
+</head>
+<body>
+    <h1>ようこそ</h1>
+    <form name="fm">
+
+        <div class="row">
+            <label class="label-size">ユーザID</label>
+            <span>：</span>
+            <input type="text" name="userId" class="form-size" maxlength="10">
+        </div>
+        <div class="row">
+            <label class="label-size">パスワード</label>
+            <span>：</span>
+            <input type="password" name="password" class="form-size" maxlength="10">
+        </div>
+
+    </form>
+
+    <div class="row">
+        <label id="helloMsg"></label>
+        <label id="nameMsg"></label>
+        <br>
+        <label id="listMsg"></label>
+        <div id="table"></div>
+    </div>
+
+    <div class="row btn-area">
+        <a href="#" id="helloBtn" class="btn btn-layout">挨拶</a>
+        <a href="#" id="nameBtn" class="btn btn-layout">名前</a>
+        <a href="#" id="listBtn" class="btn btn-layout">一覧</a>
+        <a href="./insert/insert.html" class="btn btn-layout">登録</a>
+        <a href="./delete/delete.html" class="btn btn-layout">削除</a>
+    </div>
+</body>
+</html>
